@@ -39,6 +39,9 @@
                <font>
                   <Font name="Calibri" size="26.0" />
                </font>
+               <effect>
+                  <Blend /> <!-- Diğer butonlar gibi aynı effect yaptım -->
+               </effect>
             </Button>
             <Button fx:id="helpButton" mnemonicParsing="false" onAction="#getHelp" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Help">
                <effect>
@@ -58,5 +61,21 @@
             </Button>
          </children>
       </VBox>
+      <Button fx:id="editButton" layoutX="312.0" layoutY="384.0" mnemonicParsing="false" onAction="#editCV" prefHeight="36.0" prefWidth="66.0" text="Edit">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+      <Button fx:id="deleteButton" layoutX="478.0" layoutY="384.0" mnemonicParsing="false" onAction="#deleteCV" prefHeight="36.0" prefWidth="90.0" text="Delete">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
    </children>
 </AnchorPane>

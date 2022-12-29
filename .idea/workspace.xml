@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2e03199-7e58-4a5c-8ebc-4b39a4915fe1" name="Changes" comment="" />
+    <list default="true" id="d2e03199-7e58-4a5c-8ebc-4b39a4915fe1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/CV_Maker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/CV_Maker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CV_MakerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CV_MakerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CreateCVController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CreateCVController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CreateCvController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/resources/com/example/cv_maker/CV_Maker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/src/main/resources/com/example/cv_maker/CV_Maker.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_Maker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_Maker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_Maker.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_MakerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CreateCVController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/module-info.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,23 +49,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ogzha/Kodlarım/SE115 Money&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Umut/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx.web.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="CV_Maker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.cv_maker.CV_Maker" />
       <module name="CV_Maker" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Umut\openjfx-19_windows-x64_bin-sdk\javafx-sdk-19\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.cv_maker.*" />
@@ -86,10 +109,17 @@
       <workItem from="1671610145593" duration="303000" />
       <workItem from="1671611346231" duration="2964000" />
       <workItem from="1671788114979" duration="363000" />
+      <workItem from="1672240118800" duration="2026000" />
+      <workItem from="1672246800478" duration="7334000" />
+      <workItem from="1672268675172" duration="9867000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
