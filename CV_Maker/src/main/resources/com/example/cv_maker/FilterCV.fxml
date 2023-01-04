@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="731.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cv_maker.FilterCVController">
+    <children>
+        <Button fx:id="filtername" layoutX="24.0" layoutY="14.0" mnemonicParsing="false" text="Name" />
+        <Button fx:id="filterdepartment" layoutX="24.0" layoutY="52.0" mnemonicParsing="false" text="Department" />
+        <Button fx:id="filtereducation" layoutX="24.0" layoutY="87.0" mnemonicParsing="false" text="Education" />
+        <Button fx:id="filterbirthday" layoutX="24.0" layoutY="127.0" mnemonicParsing="false" text="Birthday" />
+        <Button fx:id="filterlanguages" layoutX="24.0" layoutY="169.0" mnemonicParsing="false" text="Languages" />
+        <Button fx:id="filterphone" layoutX="24.0" layoutY="208.0" mnemonicParsing="false" text="Phone" />
+        <Button fx:id="filterid" layoutX="24.0" layoutY="348.0" mnemonicParsing="false" text="ID" />
+        <Button fx:id="filtertag" layoutX="24.0" layoutY="312.0" mnemonicParsing="false" text="Tag" />
+        <Button fx:id="filterpersonalab" layoutX="24.0" layoutY="276.0" mnemonicParsing="false" text="Personal Abilities" />
+        <Button fx:id="filteraddress" layoutX="24.0" layoutY="243.0" mnemonicParsing="false" text="Address" />
+        <TableView fx:id="cv_table" layoutX="170.0" layoutY="6.0" prefHeight="390.0" prefWidth="547.0">
+            <columns>
+                <TableColumn fx:id="nameCol" prefWidth="41.5999755859375" text="Name" />
+                <TableColumn fx:id="departmentCol" prefWidth="74.39996337890625" text="Department" />
+                <TableColumn fx:id="educationCol" prefWidth="63.99993896484375" text="Education" />
+                <TableColumn fx:id="birthdayCol" prefWidth="55.199951171875" text="Birthday" />
+                <TableColumn fx:id="languagesCol" prefWidth="67.20001220703125" text="Languages" />
+                <TableColumn fx:id="telnumCol" prefWidth="45.5999755859375" text="Phone" />
+                <TableColumn fx:id="addressCol" prefWidth="52.799957275390625" text="Address" />
+                <TableColumn fx:id="personalabCol" prefWidth="67.20001220703125" text="Personal Abilities" />
+                <TableColumn fx:id="tagCol" prefWidth="34.39990234375" text="Tag" />
+                <TableColumn fx:id="idCol" minWidth="0.0" prefWidth="31.2000732421875" text="ID" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

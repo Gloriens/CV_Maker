@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CV_Maker:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2e03199-7e58-4a5c-8ebc-4b39a4915fe1" name="Changes" comment="" />
+    <list default="true" id="d2e03199-7e58-4a5c-8ebc-4b39a4915fe1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/FilterCVController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CV_Maker/src/main/resources/com/example/cv_maker/FilterCV.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CV_Maker/src/main/resources/com/gluonhq/charm/glisten/control/TextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/CV_Maker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/CV_Maker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CV_Maker.java" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CV_Maker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CV_MakerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CV_MakerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CreateCVController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/resources/com/example/cv_maker/CV_Maker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/src/main/resources/com/example/cv_maker/CV_Maker.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_Maker.class" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_Maker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_Maker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_Maker.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_MakerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_MakerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CreateCVController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_cv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/saved_cv.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,14 +64,31 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ogzha/Git/CV_Maker&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;SQL Inserts&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/ak_an/OneDrive/Masaüstü/cv maker deneme/CV_Maker/CV_Maker/src/main/resources/com&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ak_an/OneDrive/Masaüstü/umuta son attığım/CV_Maker&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21682848&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
+    ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ak_an\OneDrive\Masaüstü\denmebartu\CV_Maker\CV_Maker\src\main\resources\com\example\cv_maker" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CV_Maker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.cv_maker.CV_Maker" />
@@ -85,10 +125,62 @@
       <workItem from="1671563561286" duration="803000" />
       <workItem from="1671610145593" duration="303000" />
       <workItem from="1671611346231" duration="1155000" />
+      <workItem from="1672057914255" duration="299000" />
+      <workItem from="1672294741353" duration="83000" />
+      <workItem from="1672688314821" duration="92000" />
+      <workItem from="1672688431860" duration="1083000" />
+      <workItem from="1672690127652" duration="653000" />
+      <workItem from="1672690814374" duration="1089000" />
+      <workItem from="1672692119842" duration="586000" />
+      <workItem from="1672692723387" duration="364000" />
+      <workItem from="1672693102500" duration="4170000" />
+      <workItem from="1672697750479" duration="830000" />
+      <workItem from="1672756852256" duration="4368000" />
+      <workItem from="1672762203596" duration="2272000" />
+      <workItem from="1672764487810" duration="242000" />
+      <workItem from="1672764745901" duration="234000" />
+      <workItem from="1672764989122" duration="777000" />
+      <workItem from="1672766128505" duration="2171000" />
+      <workItem from="1672769649819" duration="4794000" />
+      <workItem from="1672775001899" duration="306000" />
+      <workItem from="1672775323626" duration="1815000" />
+      <workItem from="1672812134157" duration="1138000" />
+      <workItem from="1672814135913" duration="2072000" />
+      <workItem from="1672816222033" duration="2960000" />
+      <workItem from="1672819224949" duration="224000" />
+      <workItem from="1672843098848" duration="145000" />
+      <workItem from="1672843434665" duration="6205000" />
+      <workItem from="1672856960331" duration="136000" />
+      <workItem from="1672858088181" duration="362000" />
+      <workItem from="1672858648858" duration="1283000" />
+      <workItem from="1672860184003" duration="350000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="CVsearch" />
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

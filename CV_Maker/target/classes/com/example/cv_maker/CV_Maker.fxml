@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.effect.Blend?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="453.0" prefWidth="688.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cv_maker.CV_MakerController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="453.0" prefWidth="688.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cv_maker.CV_MakerController">
    <children>
-      <ImageView fitHeight="460.0" fitWidth="718.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-         <image>
-            <Image url="@../../../geometric-background-with-copy-space.jpg" />
-         </image>
-      </ImageView>
-      <VBox layoutX="2.0" prefHeight="460.0" prefWidth="183.0" style="-fx-border-color: black;" AnchorPane.leftAnchor="0.0">
+
+      <VBox layoutX="2.0" layoutY="23.0" prefHeight="437.0" prefWidth="144.0" AnchorPane.leftAnchor="0.0">
          <children>
-            <Pane prefHeight="133.0" prefWidth="174.0" />
-            <Button fx:id="createCVButton" mnemonicParsing="false" onAction="#createCV" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Create CV">
+            <Pane prefHeight="133.0" prefWidth="174.0">
+               <children>
+                  <Button fx:id="SearchCV" layoutY="71.0" mnemonicParsing="false" onAction="#SearchCV" prefHeight="62.0" prefWidth="143.0" text="SearchCV">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <font>
+                        <Font name="Calibri" size="26.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="FilterButton" layoutY="9.0" mnemonicParsing="false" onAction="#FilterCV" prefHeight="62.0" prefWidth="143.0" style="-fx-border-color: balck;" text="FilterCV">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <font>
+                        <Font name="Calibri" size="26.0" />
+                     </font>
+                  </Button>
+               </children></Pane>
+            <Button fx:id="helpButton" mnemonicParsing="false" onAction="#getHelp" prefHeight="62.0" prefWidth="143.0" text="Help">
                <effect>
                   <Blend />
                </effect>
@@ -27,28 +37,7 @@
                   <Font name="Calibri" size="26.0" />
                </font>
             </Button>
-            <Button fx:id="listButton" mnemonicParsing="false" onAction="#listCV" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="List">
-               <effect>
-                  <Blend />
-               </effect>
-               <font>
-                  <Font name="Calibri" size="26.0" />
-               </font>
-            </Button>
-            <Button fx:id="loadButton" mnemonicParsing="false" onAction="#openLoad" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Load">
-               <font>
-                  <Font name="Calibri" size="26.0" />
-               </font>
-            </Button>
-            <Button fx:id="helpButton" mnemonicParsing="false" onAction="#getHelp" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Help">
-               <effect>
-                  <Blend />
-               </effect>
-               <font>
-                  <Font name="Calibri" size="26.0" />
-               </font>
-            </Button>
-            <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitApp" prefHeight="61.0" prefWidth="196.0" style="-fx-background-color: 0000;" text="Exit">
+            <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitApp" prefHeight="62.0" prefWidth="143.0" text="Exit">
                <effect>
                   <Blend />
                </effect>
@@ -58,5 +47,60 @@
             </Button>
          </children>
       </VBox>
+      <Pane fx:id="pane" layoutX="152.0" layoutY="1.0" prefHeight="453.0" prefWidth="530.0">
+         <children>
+            <TableView fx:id="cv_table" layoutX="-4.0" onMouseClicked="#rowClicked" prefHeight="174.0" prefWidth="539.0">
+               <columns>
+                  <TableColumn fx:id="nameCol" prefWidth="41.5999755859375" text="Name" />
+                  <TableColumn fx:id="departmentCol" prefWidth="74.39996337890625" text="Department" />
+                  <TableColumn fx:id="educationCol" prefWidth="63.99993896484375" text="Education" />
+                  <TableColumn fx:id="birthdayCol" prefWidth="55.199951171875" text="Birthday" />
+                  <TableColumn fx:id="languagesCol" prefWidth="67.20001220703125" text="Languages" />
+                  <TableColumn fx:id="telnumCol" prefWidth="45.5999755859375" text="Phone" />
+                  <TableColumn fx:id="addressCol" prefWidth="52.799957275390625" text="Address" />
+                  <TableColumn fx:id="personalabCol" prefWidth="67.20001220703125" text="Personal Abilities" />
+                  <TableColumn fx:id="tagCol" prefWidth="34.39990234375" text="Tag" />
+                  <TableColumn fx:id="idCol" minWidth="0.0" prefWidth="31.2000732421875" text="ID" />
+               </columns>
+            </TableView>
+            <Text fx:id="name_selected" layoutX="14.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+            <Text fx:id="birthday_selected" layoutX="14.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthday" />
+            <Text fx:id="department_selected" layoutX="14.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Department" />
+            <Text fx:id="education_selected" layoutX="14.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Education" />
+            <Text fx:id="languages_selected" layoutX="273.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Languages" />
+            <Text fx:id="telnum_selected" layoutX="275.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone No" />
+            <Text fx:id="address_selected" layoutX="14.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
+            <Text fx:id="personalab_selected" layoutX="275.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personal Abilities" />
+            <Text fx:id="tag_selected" layoutX="273.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tag" />
+            <TextField fx:id="name_selected_txtf" layoutX="14.0" layoutY="195.0" prefHeight="25.0" prefWidth="195.0" />
+            <TextField fx:id="department_selected_txtf" layoutX="14.0" layoutY="241.0" prefHeight="25.0" prefWidth="195.0" />
+            <TextField fx:id="birthday_selected_txtf" layoutX="14.0" layoutY="333.0" prefHeight="25.0" prefWidth="195.0" />
+            <TextField fx:id="languages_selected_txtf" layoutX="273.0" layoutY="195.0" prefHeight="25.0" prefWidth="195.0" />
+            <TextField fx:id="telnum_selected_txtf" layoutX="273.0" layoutY="241.0" prefHeight="25.0" prefWidth="195.0" />
+            <TextField fx:id="personalab_selected_txtf" layoutX="273.0" layoutY="287.0" prefHeight="25.0" prefWidth="195.0" />
+            <TextField fx:id="tag_selected_txtf" layoutX="273.0" layoutY="333.0" prefHeight="25.0" prefWidth="195.0" />
+            <TextField fx:id="education_selected_txtf" layoutX="14.0" layoutY="287.0" prefHeight="25.0" prefWidth="195.0" />
+            <TextField fx:id="address_selected_txtf" layoutX="14.0" layoutY="379.0" prefHeight="25.0" prefWidth="195.0" />
+            <Button fx:id="editButton" layoutX="385.0" layoutY="412.0" mnemonicParsing="false" onAction="#editCV" prefHeight="28.0" prefWidth="76.0" text="Edit">
+               <font>
+                  <Font name="Calibri" size="15.0" />
+               </font>
+               <effect>
+                  <Blend />
+               </effect>
+            </Button>
+            <Button fx:id="deleteButton" layoutX="273.0" layoutY="412.0" mnemonicParsing="false" onAction="#deleteCV" prefHeight="28.0" prefWidth="76.0" text="Delete">
+               <font>
+                  <Font name="Calibri" size="15.0" />
+               </font>
+               <effect>
+                  <Blend />
+               </effect>
+            </Button>
+            <Text fx:id="id_selected" layoutX="273.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" />
+            <TextField fx:id="id_selected_txtf" layoutX="273.0" layoutY="379.0" prefHeight="25.0" prefWidth="195.0" />
+            <Button fx:id="addButton" layoutX="36.0" layoutY="412.0" mnemonicParsing="false" onAction="#addonTable" prefHeight="28.0" prefWidth="83.0" text="Add" />
+         </children>
+      </Pane>
    </children>
 </AnchorPane>
