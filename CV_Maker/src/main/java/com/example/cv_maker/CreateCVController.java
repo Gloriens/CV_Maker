@@ -1,4 +1,12 @@
-package com.example.cv_maker;
+ 
+package deneme;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+ 
 
 import java.sql.Connection;
 import java.sql.DriverManager;
