@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cv_maker.Help_Controller">
+   <children>
+      <ImageView fitHeight="238.0" fitWidth="224.0" layoutX="312.0" layoutY="46.0">
+         <image>
+            <Image url="@../../../ca620e20-6388-49f5-969d-c3933f4d0439.jfif" />
+         </image>
+      </ImageView>
+      <Button fx:id="addHelp" layoutX="27.0" layoutY="46.0" mnemonicParsing="false" onAction="#helponadd" prefHeight="58.0" prefWidth="185.0" text="How can I add CV?" />
+      <Button fx:id="deletehelp" layoutX="26.0" layoutY="134.0" mnemonicParsing="false" onAction="#helpondelete" prefHeight="58.0" prefWidth="186.0" text="How can I delete CV?" />
+      <Button fx:id="editcvhelp" layoutX="26.0" layoutY="225.0" mnemonicParsing="false" onAction="#helponEdit" prefHeight="58.0" prefWidth="186.0" text="How can I edit CV?" />
+   </children>
+</AnchorPane>

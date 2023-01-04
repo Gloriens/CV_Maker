@@ -283,6 +283,27 @@ public class CV_MakerController implements Initializable {
     }
     @FXML
     private void getHelp(){
+        try {
+            Parent parent = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("help.fxml")));
+            Stage stage = new Stage();
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.setTitle("Help");
+            stage.setScene(new Scene(parent, 600, 400));
+            stage.setMinWidth(605);
+            stage.setMinHeight(405);
+            stage.setResizable(false);
+
+
+            stage.show
+                    ();
+
+        } catch (IOException e) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setHeaderText("help fail");
+            System.out.println("**********************"+e);
+
+            alert.show();
+        }
 
     }
     @FXML

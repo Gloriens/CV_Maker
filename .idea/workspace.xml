@@ -9,25 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2e03199-7e58-4a5c-8ebc-4b39a4915fe1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/FilterCVController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CV_Maker/src/main/resources/com/example/cv_maker/FilterCV.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CV_Maker/src/main/resources/com/gluonhq/charm/glisten/control/TextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Maker/CV_Maker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/CV_Maker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CV_Maker.java" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CV_Maker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CV_MakerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CV_MakerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/java/com/example/cv_maker/CreateCVController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Maker/src/main/resources/com/example/cv_maker/CV_Maker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/src/main/resources/com/example/cv_maker/CV_Maker.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_Maker.class" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_Maker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_Maker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_Maker.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_MakerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CV_MakerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/com/example/cv_maker/CreateCVController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Maker/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Maker/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_cv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/saved_cv.txt" afterDir="false" />
-    </list>
+    <list default="true" id="d2e03199-7e58-4a5c-8ebc-4b39a4915fe1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,6 +136,8 @@
       <workItem from="1672858088181" duration="362000" />
       <workItem from="1672858648858" duration="1283000" />
       <workItem from="1672860184003" duration="350000" />
+      <workItem from="1672862039245" duration="26000" />
+      <workItem from="1672862078497" duration="2157000" />
     </task>
     <servers />
   </component>
